@@ -1,0 +1,84 @@
+.row-wrapper {
+  display:inline-block;
+  margin:0 10px;
+  padding:0;
+  vertical-align: top;
+}
+.row {
+  display:block;
+  margin:0;
+  padding:0;
+  vertical-align: top;
+  position:relative;
+}
+.wire {
+  width:1px;
+  display:block;
+  margin:auto;
+  background-color:#ccc;
+  z-index:-2;
+  height:100%;
+  position:absolute;
+  left:45%;
+}
+.root, .node {
+  display:block;
+  border-radius:50%;
+  margin:10px auto;
+  padding:0;
+}
+.box {
+  display:block;
+  margin:5px auto;
+  padding:0;
+  background-color:lightgreen;
+  border:1px solid green;
+  width:15px;
+  height:25px;
+  position:relative;
+}
+.box-empty {
+  background-color:white;
+  border:none;
+}
+.root {
+  width:10px;
+  height:10px;
+}
+.node {
+  width:4px;
+  height:4px;
+  margin:12px auto;
+  border: 1px solid black;
+  background-color:white;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.mv {background-color:green;}
+.mv p {color:green;}
+.sta {background-color:rgb(90,80,50);}
+.sta p {color:rgb(90,80,50);}
+.ester {background-color:green;}
+.ester p {color:green;}
+.savar {background-color:rgb(105,120,55);}
+.savar p {color:rgb(105,120,55);}
+
+
+a.root p, a.box p {
+  display:none;
+  font-weight:800;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height:12px;
+}
+a.root:hover p, a.box:hover p {
+  display:block;
+  position:relative;
+  text-decoration:none;
+  margin:auto;
+  padding-left:15px;
+}
+a.box:hover p {
+  padding-left:20px;
+  color:black;
+}
